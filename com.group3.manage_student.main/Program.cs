@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace manage_student_app
+namespace manage_student_app.com.group3.manage_student.main
 {
     static class Program
     {

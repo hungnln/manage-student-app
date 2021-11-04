@@ -18,9 +18,6 @@ namespace manage_student_app.com.group3.manage_student.main
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new StudentManagementApplication());
-            /*StudentDAO student = new StudentDAO();
-            Console.WriteLine(student.GetStudentWithStudentID(1).Name);*/
-            
         }
     }
 }

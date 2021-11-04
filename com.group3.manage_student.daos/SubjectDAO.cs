@@ -1,5 +1,4 @@
-﻿using manage_student_app.com.group3.manage_student.dtos;
-using manage_student_app.com.group3.manage_student.utils;
+﻿using manage_student_app.com.group3.manage_student.utils;
 using System;
 using System.Collections.Generic;
 using System.Data;

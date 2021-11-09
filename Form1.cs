@@ -20,7 +20,6 @@ namespace manage_student_app
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            StudentDAO student = new StudentDAO();
             MajorDAO major = new MajorDAO();
             cbMajor.DataSource = major.getAllMajors();
             cbMajor.DisplayMember = "TENKHOA";
@@ -33,7 +32,7 @@ namespace manage_student_app
             txtCredits.Text = null;
             txtSubjectName.Text = null;
             dataGridView.DataSource = null;
-            
+           
             SubjectDAO subjectDAO = new SubjectDAO();
             DataTable data = subjectDAO.GetAllSubjectsWithMajor(cbMajor.SelectedValue.ToString());
             cbSubject.DataSource = data;
